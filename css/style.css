@@ -1,0 +1,31 @@
+body {
+	background-color: ghostwhite;
+}
+
+li {
+    background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li:hover {
+	opacity: 0.5;
+}
+
+li:active {
+  background-color: black;
+}
+
+li:visited {
+  background-color: #ccc;
+}
+
+/* Non-Demo Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
