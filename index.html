@@ -1,58 +1,50 @@
+<!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/tabs_style.css">
-<script>
- function change_tab(id)
- {
-   document.getElementById("page_content").innerHTML=document.getElementById(id+"_desc").innerHTML;
-   document.getElementById("page1").className="notselected";
-   document.getElementById("page2").className="notselected";
-   document.getElementById("page3").className="notselected";
-   document.getElementById(id).className="selected";
- }
-</script>
+	<title>LDA Topic Modeling by Single Years (1984-1994)</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/tab_style.js"></script>
 </head>
 <body>
-
-<div id="main_content">
-
- <li class="selected" id="page1" onclick="change_tab(this.id);">Page1</li>
- <li class="notselected" id="page2" onclick="change_tab(this.id);">Page2</li>
- <li class="notselected" id="page3" onclick="change_tab(this.id);">Page3</li>
- 
- <div class='hidden_desc' id="page1_desc">
-  <h2>Page 1</h2>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- </div>
-
- <div class='hidden_desc' id="page2_desc">
-  <h2>Page 2</h2>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- </div>
- 
- <div class='hidden_desc' id="page3_desc">
-  <h2>Page 3</h2>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- </div>
- 
- <div id="page_content">
-  <h2>Page 1</h2>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- </div>
- 
+  <div class="main_tabs">
+  <ul class="tabs">
+    <li id="tab"><a href="html/1984_viz.html">1984</a>
+    </li>
+    
+    <li id="tab"><a href="html/1985_viz.html">1985</a>
+    </li>
+    
+    <li id="tab"><a href="html/1986_viz.html">1986</a>
+    </li>
+    
+    <li id="tab"><a href="html/1987_viz.html">1987</a>
+    </li>
+    
+    <li id="tab"><a href="html/1988_viz.html">1988</a>
+    </li>
+    
+    <li id="tab"><a href="html/1989_viz.html">1989</a>
+    </li>
+    
+    <li id="tab"><a href="html/1990_viz.html">1990</a>
+    </li>
+    
+    <li id="tab"><a href="html/1991_viz.html">1991</a>
+    </li>
+    
+    <li id="tab"><a href="html/1992_viz.html">1992</a>
+    </li>
+    
+    <li id="tab"><a href="html/1993_viz.html">1993</a>
+    </li>
+    
+    <li id="tab"><a href="html/1994_viz.html">1994</a>
+    </li>
+    
+  </ul>
 </div>
- 
+
+  
 </body>
 </html>
